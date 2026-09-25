@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MIREA Student Portal — ИВБО-22-23</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar__inner">
+    <div class="topbar__brand">
+      <span class="topbar__mark">MSP</span>
+      <div>
+        <h1 class="topbar__title">Student Portal</h1>
+        <p class="topbar__group">Группа ИВБО-22-23</p>
+      </div>
+    </div>
+    <div class="topbar__node" id="nodeIndicator" title="Нода backend, ответившая на последний запрос">
+      <span class="topbar__node-dot"></span>
+      <span id="nodeLabel">узел —</span>
+    </div>
+  </div>
+</header>
+
+<nav class="tabs" role="tablist">
+  <button class="tabs__item is-active" data-tab="upcoming" role="tab">Ближайшие занятия</button>
+  <button class="tabs__item" data-tab="schedule" role="tab">Расписание группы</button>
+  <button class="tabs__item" data-tab="deadlines" role="tab">Необходимо выполнить</button>
+</nav>
+
+<main class="content">
+
+  <!-- ==================== ВКЛАДКА: БЛИЖАЙШИЕ ЗАНЯТИЯ ==================== -->
+  <section class="panel is-active" id="panel-upcoming">
+    <div id="upcomingState" class="state">Загрузка…</div>
+    <div id="upcomingHeader" class="upcoming-header" hidden>
+      <p class="upcoming-header__eyebrow" id="upcomingEyebrow"></p>
+      <h2 class="upcoming-header__date" id="upcomingDate"></h2>
+    </div>
+    <div class="lesson-list" id="upcomingList"></div>
+  </section>
+
+  <!-- ==================== ВКЛАДКА: РАСПИСАНИЕ ГРУППЫ ==================== -->
+  <section class="panel" id="panel-schedule">
+    <div id="scheduleState" class="state">Загрузка…</div>
+    <div class="week-toggle" id="weekToggle" hidden>
+      <button class="week-toggle__btn is-active" data-parity="odd">Нечётная неделя (I)</button>
+      <button class="week-toggle__btn" data-parity="even">Чётная неделя (II)</button>
+    </div>
+    <div class="schedule-grid" id="scheduleGrid"></div>
+  </section>
+
+  <!-- ==================== ВКЛАДКА: НЕОБХОДИМО ВЫПОЛНИТЬ ==================== -->
+  <section class="panel" id="panel-deadlines">
+    <div id="deadlinesState" class="state">Загрузка…</div>
+    <div class="deadlines-grid" id="deadlinesGrid"></div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <span>MIREA Student Portal · учебный проект · Практическая работа №2</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+{
+  "subjects": {
+    "uiti": {
+      "name": "Управление информационно-технологической инфраструктурой",
+      "short": "УИТИ",
+      "note": null,
+      "deadlines": [
+        {"id": "uiti-1", "title": "1 прак", "due": "2026-09-17", "done": false},
+        {"id": "uiti-2", "title": "2 прак", "due": "2026-10-01", "done": false},
+        {"id": "uiti-3", "title": "3 прак", "due": "2026-10-15", "done": false},
+        {"id": "uiti-4", "title": "4 прак", "due": "2026-10-29", "done": false},
+        {"id": "uiti-5", "title": "5 прак", "due": "2026-11-12", "done": false},
+        {"id": "uiti-6", "title": "6 прак", "due": "2026-11-26", "done": false},
+        {"id": "uiti-7", "title": "7 прак", "due": "2026-12-10", "done": false},
+        {"id": "uiti-8", "title": "8 прак", "due": "2026-12-24", "done": false}
+      ]
+    },
+    "spd": {
+      "name": "Системы передачи данных",
+      "short": "СПД",
+      "note": null,
+      "deadlines": [
+        {"id": "spd-1", "title": "1 прак", "due": "2026-09-25", "done": false},
+        {"id": "spd-2", "title": "3–4 прак (архив)", "due": "2026-09-29", "done": false},
+        {"id": "spd-3", "title": "2 прак", "due": "2026-10-15", "done": false},
+        {"id": "spd-4", "title": "3–4 прак", "due": "2026-11-05", "done": false},
+        {"id": "spd-5", "title": "5 прак", "due": "2026-12-09", "done": false}
+      ]
+    },
+    "tiabd": {
+      "name": "Технологии и инструментарий анализа больших данных",
+      "short": "ТиАБД",
+      "note": null,
+      "deadlines": [
+        {"id": "tiabd-1", "title": "1 прак", "due": "2026-09-28", "done": false},
+        {"id": "tiabd-2", "title": "2 прак", "due": "2026-10-12", "done": false},
+        {"id": "tiabd-3", "title": "3 прак", "due": "2026-10-26", "done": false},
+        {"id": "tiabd-4", "title": "4 прак", "due": "2026-11-09", "done": false},
+        {"id": "tiabd-5", "title": "5 прак", "due": "2026-11-23", "done": false},
+        {"id": "tiabd-6", "title": "6 прак", "due": "2026-12-06", "done": false},
+        {"id": "tiabd-7", "title": "7 прак", "due": "2026-12-13", "done": false},
+        {"id": "tiabd-8", "title": "8 прак", "due": "2026-12-21", "done": false},
+        {"id": "tiabd-9", "title": "9 прак", "due": "2026-12-22", "done": false}
+      ]
+    },
+    "tsb": {
+      "name": "Технологии сетевой безопасности",
+      "short": "ТСБ",
+      "note": null,
+      "deadlines": [
+        {"id": "tsb-1", "title": "1 прак", "due": "2026-10-03", "done": false},
+        {"id": "tsb-2", "title": "2 прак", "due": "2026-11-07", "done": false},
+        {"id": "tsb-3", "title": "3 прак", "due": "2026-12-15", "done": false}
+      ]
+    },
+    "piit": {
+      "name": "Проектирование инфраструктуры информационных технологий",
+      "short": "ПИИТ",
+      "note": "пока нет дедлайнов",
+      "deadlines": []
+    },
+    "ovs": {
+      "name": "Отказоустойчивые вычислительные системы",
+      "short": "ОВС",
+      "note": "дедлайны в презентации",
+      "deadlines": []
+    },
+    "quantum": {
+      "name": "Магистральные и корпоративные квантовые сети",
+      "short": "Кванты",
+      "note": "просто сдавать",
+      "deadlines": []
+    }
+  }
+}
